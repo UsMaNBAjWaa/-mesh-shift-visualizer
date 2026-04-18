@@ -3,11 +3,13 @@
 Interactive React web application that simulates a circular `q`-shift on a 2D mesh topology.
 
 ## Live Deployment URL
+
 Add your public deployment URL here after publishing, for example:
 
-`https://your-app-name.vercel.app`
+https://mesh-shift-visualizer-dgpp.vercel.app
 
 ## Features
+
 - Input validation for `p` (4 to 64, perfect square only) and `q` (1 to `p-1`)
 - Mesh grid visualization for `sqrt(p) x sqrt(p)` nodes
 - Step-by-step view of:
@@ -19,6 +21,7 @@ Add your public deployment URL here after publishing, for example:
 - Pure reusable shift logic module in `src/utils/shiftLogic.js`
 
 ## Repository Structure
+
 ```
 mesh-shift-visualizer/
 ├── public/
@@ -39,6 +42,7 @@ mesh-shift-visualizer/
 ```
 
 ## Local Setup
+
 1. Clone the repository.
 2. Install dependencies:
    ```bash
@@ -51,12 +55,14 @@ mesh-shift-visualizer/
 4. Open the local URL shown in the terminal.
 
 ## Production Build
+
 ```bash
 npm run build
 npm run preview
 ```
 
 ## Deployment on Vercel
+
 1. Push this project to a **public GitHub repository**.
 2. Sign in to Vercel.
 3. Click **Add New Project** and import the GitHub repo.
@@ -65,7 +71,9 @@ npm run preview
 6. Copy the public URL and paste it at the top of this README.
 
 ## Suggested Commit History
+
 Use meaningful incremental commits, for example:
+
 - `Initialize Vite React project`
 - `Add pure mesh shift logic`
 - `Build control panel and validation`
@@ -73,4 +81,3 @@ Use meaningful incremental commits, for example:
 - `Add complexity comparison panel`
 - `Polish styles and responsive layout`
 - `Add report and screenshots`
-
